@@ -45,16 +45,16 @@ body {
 }
 
 .btn-primary {
-    position: absolute;
     width: 128px;
     height: 47px;
-    right: 84px;
-    top: 449px;
     background-color: #F15B22;
     color: white;
     font-size: 17px;
     border: none;
     border-radius: 5px;
+    position: absolute;  
+    top: 449px;
+    right: 84px;
 }
 /*  */
 .my-failures-section {
@@ -63,9 +63,9 @@ body {
     height: 693px;
 }
 .my-failures-img img {
-    max-width: 400px;
+    max-width: 450px;
     position: absolute;
-    left: 125px;
+    left: 63px;
     top: 100px;
 }
 .my-failures-title {
@@ -106,13 +106,19 @@ span.icon {
     margin-right: 6px;
 }
 /*  */
-.My-Plans-title{
+.My-Plans {
+    padding: 30px 0 0;
+}
+.My-Plans-title {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 61px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
 }
 .flex{
     display: flex;
-    gap: 60px;
+    gap: 53px;
     justify-content: center;
 }
 .My-Plans-logo-content div{
@@ -120,10 +126,107 @@ span.icon {
 }
 .My-Plans-logo-content h4 {
     font-weight: 700;
-    font-size: 35px;
-    line-height: 35px;
-    margin: 15px 0;
+    font-size: 25px;
+    line-height: 11px;
+    margin: 18px 0;
 }
 .My-Plans-logo-content p {
-    font-size: 23px;
+    font-size: 18px;
+}
+/*positive-mindset  */
+.positive-mindset {
+    width: 900px;
+    height: 238px;
+    background: url(../images/watch.png), url(../images/gradient2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    background-blend-mode: multiply;
+    margin: 70px auto;
+    position: relative;
+}
+h1.content-title {
+    width: 54%;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    position: absolute;
+    left: 56px;
+    top: 35px;
+}
+.btn-secondary {
+    width: 128px;
+    height: 47px;
+    background-color: white;
+    color: #F15B22;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 40px;
+    left: 57px;
+}
+footer{
+    display: flex;
+    gap: 198px;
+    background: #151414;
+    color: azure;
+    height: 200px;
+    position: relative;
+    align-items: center;
+    padding: 126px 0;
+}
+.btn-footer{
+    width: 128px;
+    height: 47px;
+    background-color: white;
+    color: #F15B22;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+}
+.footer-left {
+    width: 41%;
+    margin-left: 72px;
+}
+.footer-left h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 11px;
+}
+.footer-left p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.footer-right{
+    width: 50%;
+    position: absolute;
+    right: -105px;
+    top: 78px;
+}
+.footer-right h1 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 34px;
+}
+input[type="email"] {
+    width: 325px;
+    height: 49px;
+    border-radius: 10px;
+    padding-left: 17px;
+    margin-bottom: 12px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.social {
+    margin-left: -9px;
+}
+.social span{
+    margin-left: 10px;
 }
