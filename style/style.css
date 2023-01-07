@@ -8,6 +8,7 @@ body {
 }
 
 /* banner-section */
+
 .banner-section {
     background: url(../images/banner/banner1.png);
     background-size: cover;
@@ -56,7 +57,9 @@ body {
     top: 449px;
     right: 84px;
 }
-/*  */
+
+/* My failures section */
+
 .my-failures-section {
     position: relative;
     width: 100%;
@@ -105,9 +108,66 @@ span.icon {
     font-size: 20px;
     margin-right: 6px;
 }
-/*  */
+
+/*go ahead section  */
+
+.go-ahead{
+    background-image: url(../images/website\ final\ istockphoto-1295289697-612x612.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: top;
+ background-color: rgba(0, 0, 0, 0.336);
+ background-blend-mode: multiply;
+ width: 100%;
+ height: 715px;
+ text-align: center;
+ color: white;
+ position: relative;
+ margin: 100px 0;
+}
+.go-ahead-conten {
+    padding-top: 158px;
+}
+.go-ahead-title {
+    font-weight: 700;
+    font-size: 77px;
+    line-height: 59px;
+    margin-bottom: 59px;
+}
+.go-ahead-subtitle{
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 59px;
+    margin-bottom: 13px;  
+}
+
+.go-ahead-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #edfcfd;
+    width: 80%;
+    position: absolute;
+    left: 103px;
+}
+
+.go-ahead-button{
+    width: 128px;
+    height: 47px;
+    background-color: #F15B22;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px; 
+    position: absolute;
+    top: 469px;
+    left: 471px;
+}
+
+/* My Plans section */
+
 .My-Plans {
-    padding: 30px 0 0;
+    padding-bottom: 30px;
 }
 .My-Plans-title {
     text-align: center;
@@ -133,7 +193,9 @@ span.icon {
 .My-Plans-logo-content p {
     font-size: 18px;
 }
-/*positive-mindset  */
+
+/*positive-mindset-section  */
+
 .positive-mindset {
     width: 900px;
     height: 238px;
@@ -166,6 +228,9 @@ h1.content-title {
     bottom: 40px;
     left: 57px;
 }
+
+/* footer section */
+
 footer{
     display: flex;
     gap: 198px;
@@ -175,17 +240,9 @@ footer{
     position: relative;
     align-items: center;
     padding: 126px 0;
+    margin-top: 112px;
 }
-.btn-footer{
-    width: 128px;
-    height: 47px;
-    background-color: white;
-    color: #F15B22;
-    font-size: 17px;
-    border: none;
-    border-radius: 5px;
-    display: block;
-}
+/* footer left */
 .footer-left {
     width: 41%;
     margin-left: 72px;
@@ -202,6 +259,15 @@ footer{
     line-height: 26px;
     margin-bottom: 20px;
 }
+
+.social {
+    margin-left: -9px;
+}
+.social span{
+    margin-left: 10px;
+}
+
+/* footer right */
 .footer-right{
     width: 50%;
     position: absolute;
@@ -224,9 +290,14 @@ input[type="email"] {
     color: white;
     border: 1px solid white;
 }
-.social {
-    margin-left: -9px;
-}
-.social span{
-    margin-left: 10px;
+
+.btn-footer{
+    width: 128px;
+    height: 47px;
+    background-color: white;
+    color: #F15B22;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    display: block;
 }
